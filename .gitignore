@@ -4,3 +4,4 @@
 .vscode
 # misc
 **/.vagrant/
+**/packer_cache/
