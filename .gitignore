@@ -1,0 +1,6 @@
+.idea/
+# VSCode IDE
+.history
+.vscode
+# misc
+**/.vagrant/
