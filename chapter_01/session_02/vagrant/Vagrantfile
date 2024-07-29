@@ -1,0 +1,21 @@
+VAGRANT_API_VERSION = "2"
+VM_BOX = "bento/ubuntu-22.04"
+VM_HOSTNAME = "test-server"
+PROVIDER = "virtualbox"
+VM_NAME = "my_ubuntu_vm"
+VM_MEMORY = 1024
+VM_CPUS = 1
+PROVISION_SCRIPT = "bootstrap.sh"
+
+Vagrant.configure(VAGRANT_API_VERSION) do |config|
+  config.vm.box = VM_BOX
+  config.vm.hostname = VM_HOSTNAME
+  config.vm.provider PROVIDER do |vb|
+    vb.name = VM_NAME
+    vb.memory = VM_MEMORY
+    vb.cpus = VM_CPUS
+    vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
+    vb.customize ["modifyvm", :id, "--ioapic", "on"]
+  end
+  config.vm.provision "shell", path: PROVISION_SCRIPT
+end
