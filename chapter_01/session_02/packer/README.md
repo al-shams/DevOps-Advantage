@@ -1,6 +1,6 @@
 # Automated VM Crafting with Packer
 
-This guide will walk you through setting up a VirtualBox virtual machine (VM) using Packer.
+This guide will walk you through setting up a VirtualBox virtual machine (VM) using [Packer](https://www.packer.io/).
 
 ## Prerequisites
 
@@ -34,7 +34,7 @@ See the [debian-12-mini.json](debian-12-mini.json)
 
 ### 2. Validate Packer File
 
-Validate the Packer Template:
+Validate the packer template:
 
 ```sh
 packer validate <packer_template.json>
