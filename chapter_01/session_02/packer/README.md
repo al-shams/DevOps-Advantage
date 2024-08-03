@@ -32,13 +32,15 @@ sudo apt install packer
 
 See the [debian-12-mini.json](debian-12-mini.json)
 
-### 2. Validate / Build the VM
+### 2. Validate Packer File
 
 Validate the Packer Template:
 
 ```sh
 packer validate <packer_template.json>
 ```
+
+### 3. Build the VM
 
 Build the VM:
 
