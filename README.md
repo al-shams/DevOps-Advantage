@@ -13,7 +13,7 @@
 ### 6. **OS Timeline**
 ### 7. **Linux Distribution Timeline**
 ### 8. **Linux Architecture**
-### 9. **Process Management [Go to ...](chapter_01/session_02/process management/README.md)**
+### 9. **Process Management [Go to ...](chapter_01/session_02/process%20management/README.md)**
 ### 10. **Package Management**
 ### 11. **Signals**
 ### 12. **Cgroups and Namespaces**
