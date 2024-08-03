@@ -1,5 +1,9 @@
 # Index
 
+## Chapter 01 - Session 02
+
+---
+
 ### 1. **Introduction to Linux**
 ### 2. **VirtualBox: Setting Up Virtual Machines**
 ### 3. **Disk Partitioning (LVM and non-LVM)**
