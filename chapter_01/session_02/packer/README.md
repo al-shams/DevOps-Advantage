@@ -24,7 +24,7 @@ sudo apt install virtualbox
 sudo apt install packer
 ```
 
-* Typing ```packer``` from the command line will display a list of all available commands.
+* Typing `packer` from the command line will display a list of all available commands.
 
 ## Usage
 

@@ -24,7 +24,7 @@ sudo apt install virtualbox
 sudo apt install vagrant
 ```
 
-* Typing ```vagrant``` from the command line will display a list of all available commands.
+* Typing `vagrant` from the command line will display a list of all available commands.
 
 ## Usage
 
