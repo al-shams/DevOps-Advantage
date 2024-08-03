@@ -1,6 +1,6 @@
 # Mastering Vagrant: From Setup to Cleanup
 
-This guide will walk you through setting up a VirtualBox virtual machine (VM) using Vagrant.
+This guide will walk you through setting up a VirtualBox virtual machine (VM) using [Vagrant](https://www.vagrantup.com/).
 
 ## Prerequisites
 
@@ -52,7 +52,7 @@ vagrant init
 
 ### 3. Configure the Vagrantfile
 
-See the [Vagrantfile](Vagrantfile)
+See the [Vagrantfile](Vagrantfile).
 
 ### 4. Validate / Start / Check / Connect to the VM
 
