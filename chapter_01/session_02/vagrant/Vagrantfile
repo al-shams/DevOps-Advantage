@@ -1,8 +1,8 @@
 VAGRANT_API_VERSION = "2"
-VM_BOX = "bento/ubuntu-22.04"
+VM_BOX = "bento/debian-12"
 VM_HOSTNAME = "test-server"
 PROVIDER = "virtualbox"
-VM_NAME = "my_ubuntu_vm"
+VM_NAME = "my_debian_vm"
 VM_MEMORY = 1024
 VM_CPUS = 1
 PROVISION_SCRIPT = "bootstrap.sh"

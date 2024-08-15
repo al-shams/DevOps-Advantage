@@ -28,10 +28,10 @@ sudo apt install vagrant
 
 ## Usage
 
-### 1. Add Public Box (e.g. bento/ubuntu-22.04) in Vagrant
+### 1. Add Public Box (e.g. bento/debian-12) in Vagrant
 
 ```sh
-vagrant box add --provider virtualbox bento/ubuntu-22.04
+vagrant box add --provider virtualbox bento/debian-12
 ```
 
 * Public boxes are pre-configured Vagrant environments that are publicly available for download and use.
