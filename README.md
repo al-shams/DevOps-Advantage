@@ -36,3 +36,10 @@
 ### 25. **Understanding Partition Tables**
 ### 26. **Introduction to File Systems**
 ### 27. **File System Management Commands**
+### 28. **Essential Disk Management Commands**
+### 29. **Disk Partitioning**
+- ### 29.1. **Partitioning Debian 12 via CLI**
+### 30. **Index Node (INode)**
+### 31. **Linux Directory Structure**
+### 32. **Device Files in Linux**
+### 33. **Storage Interfaces and Types Overview**
