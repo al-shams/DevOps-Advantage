@@ -23,6 +23,7 @@
 ## Chapter 01 - Session 03
 
 ---
+
 ### 15. **Checking Memory Usage: CLI and GUI**
 ### 16. **Virtualization**
 ### 17. **Common Runlevels**
@@ -38,8 +39,13 @@
 ### 27. **File System Management Commands**
 ### 28. **Essential Disk Management Commands**
 ### 29. **Disk Partitioning**
-- ### 29.1. **Partitioning Debian 12 via CLI**
+- ### 29.1. **Partitioning Debian 12 via CLI [Go to ...](chapter_01/session_03/vagrant-expert/README.md)**
 ### 30. **Index Node (INode)**
 ### 31. **Linux Directory Structure**
 ### 32. **Device Files in Linux**
 ### 33. **Storage Interfaces and Types Overview**
+
+## Chapter 01 - Session 04
+
+---
+### 34. **LVM Scenario [Go to ...](chapter_01/session_04/lvm/README.md)**
