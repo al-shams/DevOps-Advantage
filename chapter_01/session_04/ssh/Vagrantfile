@@ -1,0 +1,45 @@
+VAGRANT_API_VERSION = "2"
+VM_CONFIG = {
+  box: "bento/debian-12",
+  hostname_prefix: "test-server",
+  username: "vagrant",
+  password: "vagrant",
+  memory: 1024,
+  cpus: 1
+}
+NODE_CONFIGS = [
+  { type: "type-1", count: 1, ip_base: "192.168.56.10" },
+  { type: "type-2", count: 1, ip_base: "192.168.56.11" }
+]
+PROVIDER_CONFIG = {
+  name: "virtualbox",
+  gui: false
+}
+PROVISION_CONFIG = {
+  type: "shell",
+  path: "bootstrap.sh"
+}
+
+Vagrant.configure(VAGRANT_API_VERSION) do |config|
+  NODE_CONFIGS.each do |node_config|
+    (1..node_config[:count]).each do |i|
+      config.vm.define "#{node_config[:type]}#{i}" do |node|
+        node.vm.box = VM_CONFIG[:box]
+        node.vm.hostname = "#{VM_CONFIG[:hostname_prefix]}-#{node_config[:type]}#{i}"
+        node.vm.network "private_network", ip: "#{node_config[:ip_base]}#{i}"
+
+        node.ssh.username = VM_CONFIG[:username]
+        node.ssh.password = VM_CONFIG[:password]
+
+        node.vm.provider PROVIDER_CONFIG[:name] do |vb|
+          vb.name = "#{VM_CONFIG[:hostname_prefix]}-#{node_config[:type]}#{i}"
+          vb.memory = VM_CONFIG[:memory]
+          vb.cpus = VM_CONFIG[:cpus]
+          vb.gui = PROVIDER_CONFIG[:gui]
+        end
+
+        node.vm.provision PROVISION_CONFIG[:type], path: PROVISION_CONFIG[:path]
+      end
+    end
+  end
+end
