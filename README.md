@@ -49,3 +49,4 @@
 
 ---
 ### 34. **LVM Scenario [Go to ...](chapter_01/session_04/lvm/README.md)**
+### 35. **SSH Scenario [Go to ...](chapter_01/session_04/ssh/README.md)**
