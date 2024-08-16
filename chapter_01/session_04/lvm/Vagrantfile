@@ -1,0 +1,27 @@
+VAGRANT_API_VERSION = "2"
+VM_BOX = "bento/debian-12"
+VM_HOSTNAME = "test-server"
+VM_USERNAME = "vagrant"
+VM_PASSWORD = "vagrant"
+VM_IP = "192.168.56.10"
+PROVIDER = "virtualbox"
+VM_NAME = "my_debian_vm"
+VM_MEMORY = 1024
+VM_CPUS = 1
+PROVISION_SCRIPT = "bootstrap.sh"
+
+Vagrant.configure(VAGRANT_API_VERSION) do |config|
+  config.vm.box = VM_BOX
+  config.vm.hostname = VM_HOSTNAME
+  config.ssh.username = VM_USERNAME
+  config.ssh.password = VM_PASSWORD
+  config.vm.network "private_network", ip: VM_IP
+  config.vm.provider PROVIDER do |vb|
+    vb.name = VM_NAME
+    vb.memory = VM_MEMORY
+    vb.cpus = VM_CPUS
+    vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
+    vb.customize ["modifyvm", :id, "--ioapic", "on"]
+  end
+  config.vm.provision "shell", path: PROVISION_SCRIPT
+end
