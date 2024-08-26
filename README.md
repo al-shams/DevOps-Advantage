@@ -48,5 +48,20 @@
 ## Chapter 01 - Session 04
 
 ---
+
 ### 34. **LVM Scenario [Go to ...](chapter_01/session_04/lvm/README.md)**
 ### 35. **SSH Scenario [Go to ...](chapter_01/session_04/ssh/README.md)**
+
+## Chapter 01 - Session 05
+
+###  36. **Users and Groups**
+###  37. **Pluggable Authentication Modules (PAM)**
+###  38. **sudo and the sudoers File**
+###  39. **The sudoers Syntax**
+###  40. **File and Directory Attributes**
+###  41. **Read/Write/Execute (R/W/X) Permissions**
+###  42. **Absolute Permission Modes**
+###  43. **Soft and Hard Links**
+###  44. **Archiving and Compressing Files**
+###  45. **Linux Editors**
+###  46. **Vim Commands**
