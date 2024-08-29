@@ -58,7 +58,7 @@
 ###  37. **Pluggable Authentication Modules (PAM)**
 ###  38. **sudo and the sudoers File**
 ###  39. **The sudoers Syntax**
-###  40. **File and Directory Attributes**
+###  40. **File and Directory Attributes [Go to ...](chapter_01/session_05/file%20and%20directory%20management/README.md)**
 ###  41. **Read/Write/Execute (R/W/X) Permissions**
 ###  42. **Absolute Permission Modes**
 ###  43. **Soft and Hard Links**

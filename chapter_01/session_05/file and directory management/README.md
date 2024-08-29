@@ -1,4 +1,4 @@
-# Linux File Management Practice Guide
+# Linux File And Directory Management Practice Guide
 
 This guide provides essential Linux commands for managing files and directories.
 
