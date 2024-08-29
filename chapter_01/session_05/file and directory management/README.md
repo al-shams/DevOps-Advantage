@@ -40,6 +40,8 @@ Change file permissions:
 chmod 644 test_directory/test_file.txt
 ```
 
+* See the online [chmod-calculator](https://chmod-calculator.com/) for more details.
+
 View directory attributes:
 
 ```sh
