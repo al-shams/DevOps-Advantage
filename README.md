@@ -54,6 +54,8 @@
 
 ## Chapter 01 - Session 05
 
+---
+
 ###  36. **Users and Groups**
 ###  37. **Pluggable Authentication Modules (PAM)**
 ###  38. **sudo and the sudoers File**
@@ -83,3 +85,9 @@
 ###  62 **Core Components of iptables**
 ###  63 **OSI Network Model**
 ###  64. **iptables Command Structure**
+
+## Chapter 01 - Session 06
+
+---
+
+###  65. **Comprehensive iptables: Table, Chain, Rule, and Target**
