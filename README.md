@@ -65,3 +65,20 @@
 ###  44. **Archiving and Compressing Files**
 ###  45. **Linux Editors**
 ###  46. **Vim Commands**
+###  47. **Linux Logs**
+###  48. **Centralized Logging Management**
+###  49. **Common Linux Log Files: Names and Usage**
+###  50. **rsyslogd**
+###  51. **journald**
+###  52. **logrotate**
+###  53. **cat, tail, diff, less, and head Commands**
+###  54. **Linux Pipelines**
+###  55. **cron**
+###  56. **Scheduling One-Time Tasks with at**
+###  57. **Linux Firewall**
+###  58. **Linux Firewall Actions**
+###  59. **What is iptables?**
+###  60. **iptables Process Flow**
+###  61. **Core Components of iptables**
+###  62. **OSI Network Model**
+###  63. **iptables Command Structure**
