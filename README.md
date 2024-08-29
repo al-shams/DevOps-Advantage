@@ -61,24 +61,25 @@
 ###  40. **File and Directory Management [Go to ...](chapter_01/session_05/file%20and%20directory%20management/README.md)**
 ###  41. **Read/Write/Execute (R/W/X) Permissions**
 ###  42. **Absolute Permission Modes**
-###  43. **Soft and Hard Links**
-###  44. **Archiving and Compressing Files**
-###  45. **Linux Editors**
-###  46. **Vim Commands**
-###  47. **Linux Logs**
-###  48. **Centralized Logging Management**
-###  49. **Common Linux Log Files: Names and Usage**
-###  50. **rsyslogd**
-###  51. **journald**
-###  52. **logrotate**
-###  53. **cat, tail, diff, less, and head Commands**
-###  54. **Linux Pipelines**
-###  55. **cron**
-###  56. **Scheduling One-Time Tasks with at**
-###  57. **Linux Firewall**
-###  58. **Linux Firewall Actions**
-###  59. **What is iptables?**
-###  60. **iptables Process Flow**
-###  61. **Core Components of iptables**
-###  62. **OSI Network Model**
-###  63. **iptables Command Structure**
+###  43. **Sticky Bit**
+###  44. **Soft and Hard Links**
+###  45. **Archiving and Compressing Files**
+###  46. **Linux Editors**
+###  47. **Vim Commands**
+###  48 **Linux Logs**
+###  49 **Centralized Logging Management**
+###  50 **Common Linux Log Files: Names and Usage**
+###  51 **rsyslogd**
+###  52 **journald**
+###  53 **logrotate**
+###  54 **cat, tail, diff, less, and head Commands**
+###  55 **Linux Pipelines**
+###  56 **cron**
+###  57 **Scheduling One-Time Tasks with at**
+###  58 **Linux Firewall**
+###  59 **Linux Firewall Actions**
+###  60 **What is iptables?**
+###  61 **iptables Process Flow**
+###  62 **Core Components of iptables**
+###  63 **OSI Network Model**
+###  64. **iptables Command Structure**
