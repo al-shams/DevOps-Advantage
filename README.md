@@ -62,7 +62,7 @@
 ###  41. **Read/Write/Execute (R/W/X) Permissions**
 ###  42. **Absolute Permission Modes**
 ###  43. **Sticky Bit**
-###  44. **Soft and Hard Links**
+###  44. **Soft and Hard Links [Go to ...](chapter_01/session_05/file%20and%20link%20management/README.md)**
 ###  45. **Archiving and Compressing Files**
 ###  46. **Linux Editors**
 ###  47. **Vim Commands**
@@ -74,7 +74,7 @@
 ###  53 **logrotate**
 ###  54 **cat, tail, diff, less, and head Commands**
 ###  55 **Linux Pipelines**
-###  56 **cron**
+###  56 **cron [Go to ...](chapter_01/session_05/cron/README.md)**
 ###  57 **Scheduling One-Time Tasks with at**
 ###  58 **Linux Firewall**
 ###  59 **Linux Firewall Actions**
