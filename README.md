@@ -1,6 +1,6 @@
 # Index
 
-## Chapter 01 - Session 02
+## ❇️ Chapter 01 - Session 02
 
 ---
 
@@ -20,7 +20,7 @@
 ### 13. **Systemd [Go to ...](chapter_01/session_02/systemd/README.md)**
 ### 14. **Virtual Memory vs. Swap**
 
-## Chapter 01 - Session 03
+## ❇️ Chapter 01 - Session 03
 
 ---
 
@@ -45,14 +45,14 @@
 ### 32. **Device Files in Linux**
 ### 33. **Storage Interfaces and Types Overview**
 
-## Chapter 01 - Session 04
+## ❇️ Chapter 01 - Session 04
 
 ---
 
 ### 34. **LVM Scenario [Go to ...](chapter_01/session_04/lvm/README.md)**
 ### 35. **SSH Scenario [Go to ...](chapter_01/session_04/ssh/README.md)**
 
-## Chapter 01 - Session 05
+## ❇️ Chapter 01 - Session 05
 
 ---
 
@@ -86,7 +86,7 @@
 ###  63. **OSI Network Model**
 ###  64. **iptables Command Structure**
 
-## Chapter 01 - Session 06
+## ❇️ Chapter 01 - Session 06
 
 ---
 
