@@ -68,22 +68,22 @@
 ###  45. **Archiving and Compressing Files**
 ###  46. **Linux Editors**
 ###  47. **Vim Commands**
-###  48 **Linux Logs**
-###  49 **Centralized Logging Management**
-###  50 **Common Linux Log Files: Names and Usage**
-###  51 **rsyslogd**
-###  52 **journald**
-###  53 **logrotate**
-###  54 **cat, tail, diff, less, and head Commands**
-###  55 **Linux Pipelines**
-###  56 **cron [Go to ...](chapter_01/session_05/cron/README.md)**
-###  57 **Scheduling One-Time Tasks with at**
-###  58 **Linux Firewall**
-###  59 **Linux Firewall Actions**
-###  60 **What is iptables?**
-###  61 **iptables Process Flow**
-###  62 **Core Components of iptables**
-###  63 **OSI Network Model**
+###  48. **Linux Logs**
+###  49. **Centralized Logging Management**
+###  50. **Common Linux Log Files: Names and Usage**
+###  51. **rsyslogd**
+###  52. **journald**
+###  53. **logrotate**
+###  54. **cat, tail, diff, less, and head Commands**
+###  55. **Linux Pipelines**
+###  56. **cron [Go to ...](chapter_01/session_05/cron/README.md)**
+###  57. **Scheduling One-Time Tasks with at**
+###  58. **Linux Firewall**
+###  59. **Linux Firewall Actions**
+###  60. **What is iptables?**
+###  61. **iptables Process Flow**
+###  62. **Core Components of iptables**
+###  63. **OSI Network Model**
 ###  64. **iptables Command Structure**
 
 ## Chapter 01 - Session 06
