@@ -91,3 +91,14 @@
 ---
 
 ###  65. **Comprehensive iptables: Table, Chain, Rule, and Target [Go to ...](chapter_01/session_06/iptables/README.md)**
+###  66. **iptables scenario 1: Configuring Basic Firewall Rules for Secure Server Access [Go to ...](chapter_01/session_06/iptables_scenario_1/README.md)**
+###  67. **iptables scenario 2: Advanced Network Security: Configuring a Linux Router/Firewall with NAT and Access Control [Go to ...](chapter_01/session_06/iptables_scenario_2/README.md)**
+###  68. **nftables**
+###  69. **nftables vs. iptables**
+###  70. **nftables Commands**
+###  71. **Hardening Linux Kernel Security**
+###  72. **sysctl Commands**
+###  73. **Linux System Hardening**
+###  74. **Hardening Steps**
+###  75. **Lynis: Security Auditing Tool**
+###  76. **Defining the LI Project**
