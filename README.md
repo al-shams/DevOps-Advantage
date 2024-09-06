@@ -101,4 +101,4 @@
 ###  73. **Linux System Hardening**
 ###  74. **Hardening Steps**
 ###  75. **Lynis: Security Auditing Tool**
-###  76. **Defining the LI Project**
+###  76. **Defining the Li Project [Go to ...](chapter_01/projects/1.%20Li%20Project[persian].pdf)**
